@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Normalpage from './pages/normalpages';
+import Firstcomponent from './component/firstComponent';
+// import Normalpage from './pages/normalpages';
 
 function App() {
   return (
     <div className="App">
-     <Normalpage/>
+   <Firstcomponent/>
+
+
     </div>
+
   );
 }
 
